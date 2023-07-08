@@ -5,7 +5,7 @@ body {
     font-family: 'Lato', sans-serif;
     position: relative;
     text-align: center;
-    background-color: #98FB98;
+    background-color: #89C15E;
 }
 
 #playAgain,
@@ -67,12 +67,12 @@ button {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid rgb(217,217,217);
     width: 80%;
 }
 
 .close {
-    color: #aaa;
+    color: rgb(217, 217, 217);
     float: right;
     font-size: 28px;
     font-weight: bold;
