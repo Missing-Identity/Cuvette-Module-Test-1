@@ -57,7 +57,7 @@ function handleClick(choice) {
     updateScores();
 
     // Check if either player has reached 16 points after scores are updated
-    if (playerScore === 5 || computerScore === 5) {
+    if (playerScore === 15 || computerScore === 15) {
         displayWinner(playerScore === 16 ? 'Player' : 'Computer');
     } else {
         document.getElementById('choices').style.display = 'none';
