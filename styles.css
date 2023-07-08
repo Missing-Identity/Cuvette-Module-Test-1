@@ -141,21 +141,21 @@ button {
 }
 
 #rock {
-    background: url('images/Rock.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/rock.png') no-repeat;
     background-size: cover;
     top: 0;
     left: 150px;
 }
 
 #paper {
-    background: url('images/Paper.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/paper.png') no-repeat;
     background-size: cover;
     bottom: 50px;
     left: 0;
 }
 
 #scissors {
-    background: url('images/Scissors.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/scissors.png') no-repeat;
     background-size: cover;
     bottom: 50px;
     right: 0;
@@ -184,32 +184,32 @@ button {
 }
 
 #player-rock {
-    background: url('images/Rock\ Win.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/Rock\ Win.png') no-repeat;
     background-size: cover;
 }
 
 #player-paper {
-    background: url('images/Paper\ Win.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/Paper\ Win.png') no-repeat;
     background-size: cover;
 }
 
 #player-scissors {
-    background: url('images/Scissors\ Win.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/Scissors\ Win.png') no-repeat;
     background-size: cover;
 }
 
 #computer-rock {
-    background: url('images/rock.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/rock.png') no-repeat;
     background-size: cover;
 }
 
 #computer-paper {
-    background: url('images/paper.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/paper.png') no-repeat;
     background-size: cover;
 }
 
 #computer-scissors {
-    background: url('images/scissors.png') no-repeat;
+    background: url('../Cuvette-Module-Test-1/images/scissors.png') no-repeat;
     background-size: cover;
 }
 
