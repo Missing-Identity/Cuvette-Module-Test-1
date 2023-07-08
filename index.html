@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1 class="Toptitle">Rock Paper Scissors</h1>
+        <div id="scoreboard">
+            <div id="playerScore">Player Score: 0</div>
+            <div id="computerScore">Computer Score: 0</div>
+        </div>
+    </div>
+    <div id="choices">
+        <button id="rock" class="choice"></button>
+        <button id="paper" class="choice"></button>
+        <button id="scissors" class="choice"></button>
+    </div>
+    <div id="result" style="display: none;">
+        <div id="victory-screen">
+            <div id="player-icons">
+                <div id="player-rock" class="battle-icon"></div>
+                <div id="player-paper" class="battle-icon"></div>
+                <div id="player-scissors" class="battle-icon"></div>
+            </div>
+        
+            <p>VS</p>
+        
+            <div id="computer-icons">
+                <div id="computer-rock" class="battle-icon"></div>
+                <div id="computer-paper" class="battle-icon"></div>
+                <div id="computer-scissors" class="battle-icon"></div>
+            </div>
+        </div>
+        <br>
+        <div id="message">Let's Play!</div>
+        <button id="playAgain">Play Again</button>
+    </div>
+    <button id="rules">Rules</button>
+    <div id="rulesModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p style="color: black;">Rock beats Scissors. Scissors beat Paper. Paper beats Rock.</p>
+        </div>
+    </div>
+    <div id="winnerScreen" style="display: none;">
+        <img id="trophy" src="images/trophy-png-30565.png" alt="Trophy" />
+        <h2 id="winner"></h2>
+        <button id="playAgain">Play Again</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
