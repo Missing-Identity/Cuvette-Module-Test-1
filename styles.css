@@ -141,21 +141,21 @@ button {
 }
 
 #rock {
-    background: url('../Cuvette-Module-Test-1/images/rock.png') no-repeat;
+    background: url('/images/rock.png') no-repeat;
     background-size: cover;
     top: 0;
     left: 150px;
 }
 
 #paper {
-    background: url('../Cuvette-Module-Test-1/images/paper.png') no-repeat;
+    background: url('/images/paper.png') no-repeat;
     background-size: cover;
     bottom: 50px;
     left: 0;
 }
 
 #scissors {
-    background: url('../Cuvette-Module-Test-1/images/scissors.png') no-repeat;
+    background: url('/images/scissors.png') no-repeat;
     background-size: cover;
     bottom: 50px;
     right: 0;
